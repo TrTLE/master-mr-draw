@@ -22,7 +22,7 @@ def tirage_au_sort():
 
     if not elements_restants:
         print("Tous les éléments ont déjà été tirés au sort.")
-        recommencer_serie = input("Voulez recommencer une nouvelle série ? [o] [N]")
+        recommencer_serie = input("Voulez vous recommencer une nouvelle série ? [o] [N]")
         if recommencer_serie == 'o':
             with open(out_tirages, "r+") as f:
                 f.truncate(0)
